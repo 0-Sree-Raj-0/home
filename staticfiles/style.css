@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+header {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header .nav-list {
+	height: auto;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+header .nav-list ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header .nav-list ul li {
+	list-style: none;
+	height: auto;
+	width: auto;
+}
+header .nav-list ul li a {
+	text-decoration: none;
+	font-size: 2rem;
+	color: black;
+	padding: 10px 25px;
+	display: inline-block;
+}
+header .nav-list .overlay {
+	position: absolute;
+/*   for test */
+/* 	height: 10px;
+	width: 100px; */
+/*  for test  */
+	background-color: aquamarine;
+	z-index: -1;
+	transition: .3s ease left, width, opacity;
+	opacity: 0;
+}
+header .nav-list .overlay.active {
+	opacity: 1;
+}
