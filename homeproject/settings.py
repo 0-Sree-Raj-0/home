@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9)i(yi(=n=-w7z*@7ujj!bg-l8a3+%gwhio)@8i0x3t=k17qk(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['home-rust-theta.vercel.app']
 
 
 # Application definition
